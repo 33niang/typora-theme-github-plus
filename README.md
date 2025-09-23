@@ -4,9 +4,6 @@
 
 This is a custom theme for Typora, based on the default `Github` theme. It enhances the original's clean style with more personalized features, aiming to provide a more comfortable and creative writing experience.
 
-![Theme Preview](https://example.com/your-screenshot.png) 
-*(建议：在这里替换成你的主题截图)*
-
 ---
 
 ## ✨ 主要特性 (Features)
