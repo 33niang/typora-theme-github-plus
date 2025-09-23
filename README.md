@@ -4,6 +4,7 @@
 
 This is a custom theme for Typora, based on the default `Github` theme. It enhances the original's clean style with more personalized features, aiming to provide a more comfortable and creative writing experience.
 
+
 ---
 
 ## ✨ 主要特性 (Features)
@@ -29,6 +30,7 @@ This is a custom theme for Typora, based on the default `Github` theme. It enhan
 6.  在菜单栏 `主题` 菜单中选择 `Github Plus` 即可应用。
 
 最终你的主题文件夹结构应如下所示：
+
 ```
 themes/
 ├── github-plus.css
@@ -48,6 +50,7 @@ themes/
 1.  用文本编辑器打开 `github-plus.css` 文件。
 2.  找到 `/* --- 新增：自定义字体设置 --- */` 这段注释。
 3.  在 `body { ... }` 中，修改 `font-family` 的值即可更换全局字体。
+
     ```css
     /* 例如，将 "MapleMonoNormal-Bold" 替换成 "微软雅黑" */
     body {
@@ -77,7 +80,7 @@ themes/
         0% { background-image: url("./github-plus/img/图1.gif"); }
         33.33% { background-image: url("./github-plus/img/图2.gif"); }
         66.66% { background-image: url("./github-plus/img/图3.gif"); }
-        100% { background-image: url("./github-plus/img/图1.gif"); } 
+        100% { background-image: url("./github-plus/img/图1.gif"); }
     }
     ```
 
