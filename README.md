@@ -27,9 +27,8 @@
 <table>
   <tr>
     <td><img src="./github-plus/img/bg5.gif" alt="Preview GIF 1" width="200"/></td>
-    <td><img src="./github-plus/img/bg3.gif" alt="Preview GIF 2" width="200"/></td>
-    <td><img src="./github-plus/img/mutou.gif" alt="Preview GIF 3" width="200"/></td>
-    <td><img src="./github-plus/img/mutou2.gif" alt="Preview GIF 4" width="200"/></td>
+    <td><img src="./github-plus/img/mutou.gif" alt="Preview GIF 2" width="200"/></td>
+    <td><img src="./github-plus/img/mutou2.gif" alt="Preview GIF 3" width="200"/></td>
   </tr>
 </table>
 ## 🛠️ 安装指南 (Installation)
