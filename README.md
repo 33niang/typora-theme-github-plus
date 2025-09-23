@@ -5,6 +5,7 @@
 This is a custom theme for Typora, based on the default `Github` theme. It enhances the original's clean style with more personalized features, aiming to provide a more comfortable and creative writing experience.
 
 
+
 ---
 
 ## ✨ 主要特性 (Features)
@@ -17,7 +18,7 @@ This is a custom theme for Typora, based on the default `Github` theme. It enhan
     * 在编辑器的左下角增加了一个可轮播的 GIF 动图，灵感来源于优秀的 `onelight` 主题，为静态的写作环境增添一丝活力。
     * 支持轻松自定义，您可以随意增删或修改动图。
 
-* ** minimalist 风格**:
+* **minimalist 风格**:
     * 继承了 `Github` 主题的所有优点，界面干净，元素间距舒适，让您能更专注于内容创作。
 
 ## ⚙️ 安装方法 (Installation)
