@@ -24,14 +24,13 @@
 
 ## 📸 主题预览 (Preview)
 
-\<table\>
-\<tr\>
-\<td\>\<img src="./github-plus/img/bg5.gif" alt="Preview GIF 1" width="200"/\>\</td\>
-\<td\>\<img src="./github-plus/img/bg4.gif" alt="Preview GIF 2" width="200"/\>\</td\>
-\<td\>\<img src="./github-plus/img/bg3.gif" alt="Preview GIF 3" width="200"/\>\</td\>
-\</tr\>
-\</table\>
-
+<table>
+  <tr>
+    <td><img src="./github-plus/img/bg5.gif" alt="Preview GIF 1" width="200"/></td>
+    <td><img src="./github-plus/img/bg4.gif" alt="Preview GIF 2" width="200"/></td>
+    <td><img src="./github-plus/img/bg3.gif" alt="Preview GIF 3" width="200"/></td>
+  </tr>
+</table>
 ## 🛠️ 安装指南 (Installation)
 
 1.  下载本项目的所有文件。
