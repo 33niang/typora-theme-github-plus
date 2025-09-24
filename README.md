@@ -1,12 +1,6 @@
-好的，这是根据我们之前讨论的所有修改（包括内置字体文件）最终确定的 `README.md` 文件内容。
-
-您可以直接复制下面的完整代码。
-
------
-
 # Github Plus for Typora ✨
 
-[](https://opensource.org/licenses/MIT)
+[](https://www.google.com/search?q=LICENSE)
 [](https://www.google.com/search?q=https://github.com/33niang/typora-theme-github-plus)
 [](https://www.google.com/search?q=https://github.com/33niang)
 
@@ -30,13 +24,13 @@
 
 ## 📸 主题预览 (Preview)
 
-<table>
-  <tr>
-    <td><img src="./github-plus/img/bg5.gif" alt="Preview GIF 1" width="200"/></td>
-    <td><img src="./github-plus/img/mutou.gif" alt="Preview GIF 2" width="200"/></td>
-    <td><img src="./github-plus/img/mutou2.gif" alt="Preview GIF 3" width="200"/></td>
-  </tr>
-</table>
+\<table\>
+\<tr\>
+\<td\>\<img src="./github-plus/img/bg5.gif" alt="Preview GIF 1" width="200"/\>\</td\>
+\<td\>\<img src="./github-plus/img/mutou.gif" alt="Preview GIF 2" width="200"/\>\</td\>
+\<td\>\<img src="./github-plus/img/mutou2.gif" alt="Preview GIF 3" width="200"/\>\</td\>
+\</tr\>
+\</table\>
 
 ## 🛠️ 安装指南 (Installation)
 
