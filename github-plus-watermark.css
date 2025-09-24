@@ -411,19 +411,41 @@ header, .context-menu, .megamenu-content, footer{
     background-image: linear-gradient( 180deg , hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0)); 
 }
 
-/* --- 新增：自定义字体设置 --- */
+/* --- 新增：自定义字体设置 (内置字体) --- */
 
-/* 1. 设置全局正文字体 */
-body {
-    /* 将 "LXGW WenKai" 替换成您电脑上已安装的字体名称 */
-    font-family: "MapleMonoNormal-Bold", "Open Sans", "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+/* 1. 定义内置的中文字体 */
+@font-face {
+    /* 在 CSS 中为这个字体家族起一个名字 */
+    font-family: 'Maple Mono'; 
+    /* 引用字体文件的相对路径，并指定格式为 truetype */
+    src: url('./github-plus/fonts/MapleMonoNormal-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
-/* 2. (可选) 设置代码字体 */
-/* 如果您想让代码块和正文的字体不一样，可以修改这里 */
+/* 2. 定义内置的英文/代码字体 (可变字体) */
+@font-face {
+    /* 在 CSS 中为这个字体家族起一个名字 */
+    font-family: 'Google Sans Code';
+    /* 引用字体文件的相对路径，并指定格式为 truetype-variations */
+    src: url('./github-plus/fonts/GoogleSansCode[wght].ttf') format('truetype-variations');
+    /* 指定支持的字重范围，通常可以从字体信息中找到 */
+    font-weight: 200 800;
+    font-style: normal;
+}
+
+/* 3. 应用这些定义好的字体 */
+/* 设置全局正文字体 */
+body {
+    /* 优先使用我们刚定义的 'Maple Mono' */
+    font-family: "Maple Mono";
+}
+
+/* 设置代码块和行内代码的字体 */
 .md-fences, code, tt {
-    /* 将 "Cascadia Code" 替换成您喜欢的等宽编程字体 */
-    font-family: "Google Sans Code Semibold", "Cascadia Code", "Fira Code", monospace;
+    /* 优先使用我们刚定义的 'Google Sans Code'，并指定使用 Semibold (600) 字重 */
+    font-family: "Google Sans Code";
+    font-weight: 600;
 }
 
 
@@ -479,13 +501,7 @@ footer.ty-footer::before {
 
 /* --- 新增：全覆盖、防复制、高密度水印 (最终稳定版) --- */
 
-/* 1. 禁止内容被选中和复制 (全局生效) */
-body {
-    user-select: none;
-    -webkit-user-select: none;
-}
-
-/* 2. 在屏幕预览时显示的水印 */
+/* 1. 在屏幕预览时显示的水印 */
 /* 我们将水印直接应用在可编辑区域 #write 上 */
 #write {
     position: relative; /* 必须有这行，作为水印的定位参考 */
@@ -504,7 +520,7 @@ body {
     pointer-events: none;
 }
 
-/* 3. 仅在打印或导出PDF时生效的水印 */
+/* 2. 仅在打印或导出PDF时生效的水印 */
 @media print {
     /* 打印时，编辑区不再需要伪元素，避免双重水印 */
     #write::before {
@@ -525,3 +541,5 @@ body {
         pointer-events: none;
     }
 }
+
+
