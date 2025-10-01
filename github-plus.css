@@ -499,13 +499,3 @@ footer.ty-footer::before {
 }
 
 
-/* --- 新增：修改打字机模式光标位置 --- */
-#write {
-    /* * 将顶部内边距设置为视窗高度的 33%，
-     * 底部设置为 67%，
-     * 这样光标就会被固定在上三分之一的位置。
-     * 你可以根据喜好微调这些数值。
-     */
-    padding-top: 33vh !important;
-    padding-bottom: 67vh !important;
-}
